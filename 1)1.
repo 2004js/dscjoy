@@ -1,0 +1,4 @@
+import base64
+encoded_string = "eW91IGd1ZXNzZWQgaXQgcmlnaHQsIHRoaXMgaXMgQkFTRTY0ISE="
+decoded_message = base64.b64decode(encoded_string).decode('utf-8')
+print(decoded_message)
