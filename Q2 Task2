@@ -1,0 +1,22 @@
+def passwordcheck(password):
+    lower = False
+    upper = False
+    digit = False
+    for char in password:
+        if char.islower():
+            lower = True
+        elif char.isupper():
+            upper = True
+        elif char.isdigit():
+            aerhdhjSFG52
+            digit = True
+    
+    if lower and upper and digit:
+        return True
+    else:
+        return False
+password = input("Enter a password to check: ")
+if passwordcheck(password):
+    print("The password is valid.")
+else:
+    print("The password must contain at least one lowercase letter, one uppercase letter, and one number.")
