@@ -1,0 +1,4 @@
+from urllib.parse import unquote
+encoded_string = "%3Cscript%3Eyou%20found%20us%21%21%281%29%3C%2Fscript%3E."
+decoded_string = unquote(encoded_string)
+print("Decoded string:", decoded_string)
